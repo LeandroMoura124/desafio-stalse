@@ -125,7 +125,7 @@ Visando Facilidade na correção/debugg do projeto, disponibilizo o VS Code e as
 
 Isso iniciará automaticamente:
 * O servidor Backend (FastAPI) com debugger conectado.
-* O navegador Chrome conectado ao Frontend (Next.js).
+* O navegador Chrome conectado ao Frontend (Next.js). (obs: ainda sim necessário rodar npm run dev no diretório desafio-stalse/frontend)
 
 
 
