@@ -1,0 +1,142 @@
+[
+  {
+    "customer_name": "Leandro Moura da Silva",
+    "channel": "email",
+    "subject": "Erro no login",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Rafael Paraíso Rossim",
+    "channel": "whatsapp",
+    "subject": "Dúvida sobre fatura",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Carlos Eduardo",
+    "channel": "chat",
+    "subject": "Pedido atrasado",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Ana Clara Souza",
+    "channel": "email",
+    "subject": "Troca de endereço",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Roberto Firmino",
+    "channel": "whatsapp",
+    "subject": "Produto com defeito",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Fernanda Lima",
+    "channel": "chat",
+    "subject": "Cupom inválido",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Geraldo Alckmin",
+    "channel": "email",
+    "subject": "Cancelamento de conta",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Patricia Abravanel",
+    "channel": "whatsapp",
+    "subject": "2ª via de boleto",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Silvio Santos",
+    "channel": "chat",
+    "subject": "Reembolso não caiu",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Fausto Silva",
+    "channel": "email",
+    "subject": "Erro no checkout",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Xuxa Meneghel",
+    "channel": "whatsapp",
+    "subject": "Dúvida sobre tamanho",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Luciano Huck",
+    "channel": "chat",
+    "subject": "Rastreio não funciona",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Eliana Michaelichen",
+    "channel": "email",
+    "subject": "Mudar forma de pagamento",
+    "status": "pending",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Rodrigo Faro",
+    "channel": "whatsapp",
+    "subject": "Login social falhando",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Tata Silva",
+    "channel": "chat",
+    "subject": "Produto errado entregue",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Cauã Silva",
+    "channel": "email",
+    "subject": "Solicitação de NF",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Bruna Silva",
+    "channel": "whatsapp",
+    "subject": "Parceria comercial",
+    "status": "pending",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Neymar Jr",
+    "channel": "chat",
+    "subject": "Conta bloqueada",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Anitta",
+    "channel": "email",
+    "subject": "Alterar senha",
+    "status": "closed",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Ivete Sangalo",
+    "channel": "whatsapp",
+    "subject": "App travando",
+    "status": "open",
+    "priority": "medium"
+  }
+]

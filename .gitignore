@@ -1,0 +1,20 @@
+# --- Python / Backend ---
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+*.db
+backend/db.sqlite
+
+# --- Dados / ETL ---
+data/raw/olist_orders_dataset.csv
+data/processed/metrics.json
+
+# --- VS Code ---
+.vscode/
+
+# --- Node / Frontend ---
+node_modules/
+.next/
+.DS_Store

@@ -1,0 +1,61 @@
+{
+    "name": "Stalse Challenge Workflow",
+    "nodes": [
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "ticket-updates",
+          "options": {}
+        },
+        "name": "Webhook - Ticket Update",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 1,
+        "position": [
+          250,
+          300
+        ],
+        "id": "e3b4c5d6-7f8g-9h0i-1j2k-3l4m5n6o7p8q"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://httpbin.org/post",
+          "sendBody": true,
+          "bodyParameters": {
+            "parameters": [
+              {
+                "name": "received_payload",
+                "value": "={{$json}}"
+              },
+              {
+                "name": "processed_at",
+                "value": "={{$now}}"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "name": "Action - Log to External API",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 3,
+        "position": [
+          450,
+          300
+        ],
+        "id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+      }
+    ],
+    "connections": {
+      "Webhook - Ticket Update": {
+        "main": [
+          [
+            {
+              "node": "Action - Log to External API",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    }
+  }
