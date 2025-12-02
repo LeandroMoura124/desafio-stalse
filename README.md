@@ -39,10 +39,11 @@ O sistema utiliza dados reais do E-commerce brasileiro.
 ### 2. Backend (API)
 Em um terminal, inicie a API:
 
-bash
+```bash
 cd backend
 pip install -r requirements.txt
 python -m uvicorn main:app --reload
+```
 
 
 A API estará rodando em: http://127.0.0.1:8000
@@ -57,12 +58,12 @@ Nota: O banco de dados db.sqlite será criado automaticamente e populado com tic
 
 Em outro terminal, acesse a pasta do frontend e inicie o servidor:
 
-Bash
+```Bash
 
 cd frontend
 npm install
 npm run dev
-
+```
 
 Acesse a aplicação em: http://localhost:3000
 
@@ -80,7 +81,7 @@ Integração: O backend envia um POST para um endpoint externo. Para este MVP, f
 Exemplo de Payload Enviado
 Este é o formato JSON que o n8n recebe quando o gatilho é acionado:
 
-
+```Bash
 {
   "event": "ticket_updated",
   "ticket_id": 1,
@@ -89,7 +90,7 @@ Este é o formato JSON que o n8n recebe quando o gatilho é acionado:
   "customer": "Leandro Moura da Silva",
   "updated_at": "2025-12-02 14:30:00.123456"
 }
-
+```
 
 
 Arquivos de Entrega
@@ -116,3 +117,4 @@ Interface para listagem e atualização de tickets (integração com API).
 
 
 Desenvolvido por: Leandro Moura
+
