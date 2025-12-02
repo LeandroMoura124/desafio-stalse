@@ -115,6 +115,19 @@ Interface para listagem e atualização de tickets (integração com API).
 
 
 
+##  Debug & Desenvolvimento (VS Code)
+
+Visando Facilidade na correção/debugg do projeto, disponibilizo o VS Code e as configs lauch.json para depuração em mode F5.
+
+1. Acesse a aba **"Run and Debug"** (Ctrl+Shift+D).
+2. Selecione a opção **"🚀 Fullstack: Front + Back"**.
+3. Pressione **F5**.
+
+Isso iniciará automaticamente:
+* O servidor Backend (FastAPI) com debugger conectado.
+* O navegador Chrome conectado ao Frontend (Next.js).
+
+
 
 Desenvolvido por: Leandro Moura
 

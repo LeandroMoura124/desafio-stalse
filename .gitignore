@@ -12,7 +12,8 @@ data/raw/olist_orders_dataset.csv
 data/processed/metrics.json
 
 # --- VS Code ---
-.vscode/
+.vscode/*
+!.vscode/launch.json
 
 # --- Node / Frontend ---
 node_modules/
