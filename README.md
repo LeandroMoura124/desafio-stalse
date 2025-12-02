@@ -39,7 +39,7 @@ O sistema utiliza dados reais do E-commerce brasileiro.
 ### 2. Backend (API)
 Em um terminal, inicie a API:
 
-```bash
+bash
 cd backend
 pip install -r requirements.txt
 python -m uvicorn main:app --reload
@@ -53,7 +53,7 @@ Nota: O banco de dados db.sqlite será criado automaticamente e populado com tic
 
 
 
-3. Frontend (Interface)
+### 3. Frontend (Interface)
 
 Em outro terminal, acesse a pasta do frontend e inicie o servidor:
 
@@ -111,6 +111,7 @@ Inbox de Tickets e FastAPI (Gerenciamento)
 
 Interface para listagem e atualização de tickets (integração com API).
 ![Dashboard Screenshot](frontend/public/front_inbox.png)
+
 
 
 
