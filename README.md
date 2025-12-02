@@ -28,7 +28,7 @@ O sistema utiliza dados reais do E-commerce brasileiro.
 
 1.  Baixe o arquivo `olist_orders_dataset.csv` do Kaggle:
     * **Link:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-2.  Coloque o arquivo baixado na pasta: `data/raw/olist_orders_dataset.csv`.
+2.  Coloque o arquivo baixado na pasta: `data/raw/olist_orders_dataset.csv`. (necessário criar diretório raw, pois o gitignore restringi o arquivo, visando segurança e boas práticas em proteção de dados).
 3.  Execute o script de processamento:
     ```bash
     pip install pandas
